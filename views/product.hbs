@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        h1{
+            text-align: center;
+        }
+        ul{
+            text-align: center;
+        }
+        body{
+                        background-image: linear-gradient(#EBE8CE, white);
+                        background-repeat : no-repeat;
+                } 
+                .main{
+                        width: 100%;
+                        margin: 0 auto;
+                }
+                .top{
+                        
+                        height: 110px;
+                }
+                .bottom{
+                        
+                        height: 200px;
+                        
+                }
+                .left{               
+                        height: 650px;
+                        width: 25%;
+                        float: left;
+
+
+                }
+                .right{
+                        
+                        height: 650px;
+                        width: 25%;
+                        float: right;
+                
+                }
+                .center{
+                    background-image: linear-gradient(#C5E59C, white);
+                        height: 650px;
+                        width: 50%;
+                        float: left;
+                }
+                .conten{
+                        height: 100px;
+                }
+                .left ul{
+                        list-style-type :none;
+                }
+                .left a:link{
+                        font-size: 35px;
+                        text-decoration: none;
+                        color: red;
+                }
+                .left li{
+                        padding: 0 auto;
+
+                }
+                .left li:hover{
+                        background-color:#E1ED25;
+                }
+                form{
+                    text-align: center;
+                }
+    </style>
+    <div class="left">
+        <img src="https://1.bp.blogspot.com/-9TrOts03cgA/Xemtp0jwYkI/AAAAAAAAXHw/Gpo0x2kiLXEl8fo4W0iQydR9yi5lEtpRACLcBGAsYHQ/s1600/hinh-nen-4d-God-King-Garen-lien-minh-huyen-thoai-full-hd-cho-dien-thoai.jpg" height="960px" width="580px"/>
+    </div >
+    <div class="right">
+                <img src="https://images.headlines.pw/topnews-2017/imgs/3e/51/3e51b19a22f7d56fe9d7cedb41f8fc2f45da3cdd.jpg" height="960px" width="580px">
+
+    </div>
+    <h1>Input Information Of New Model Toy</h1>
+    <br>
+    <br><br>
+    <form action="/product" method="post">
+        <h2>Name Of Model Toy</h2> <input size="50" type="text" name="txtName" id="txtName" >
+        <br>
+        <br>
+        <br>
+        <br><br><br>
+        <h2>Price Of Model Toy</h2> <input  size="50" type="text" name="txtPrice" id="txtPrice" >
+        <span style="color: red;">{{error}}</span>
+        <br> <br>
+        <br>
+        <br>
+        <br><br>
+     
+        <h2>Picture URL of Model Toy</h2> <input size="50" type="text" name="txtPic" id="txtPic" >
+        <br><br><br>
+        <input type="submit" value="Complete">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
